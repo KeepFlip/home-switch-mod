@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "homeswitch",
+  "version": "${version}",
+  "name": "Home Switch",
+  "description": "Gdy inny gracz wejdzie na Twoj chunk, automatycznie przelacza /home 1 <-> /home 2.",
+  "authors": ["KeepFlip"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.keepflip.homeswitch.HomeSwitchClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
